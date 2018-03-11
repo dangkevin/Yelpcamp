@@ -1,0 +1,23 @@
+<% include partials/header %>
+<div class = "container">
+  <header class = "jumbotron">
+    <h1> Campground Page </h1>
+    <p> Check out the Pokemon on this page </p
+    <p>
+      <class = "btn btn-primary btn-large" href = "/campgrounds/new"> Add New Campground </a> 
+    <p>
+  </header>
+</div>
+
+
+
+<a href = "/campgrounds/new"> Add New Campground </a>
+<% campgrounds.forEach(function(campground){ %>
+    <div>
+    <h4> <%=campground.name %> </h4>
+    <img src="<%=campground.image %>">
+  </div>
+<% }); %>
+
+
+<%include partials/footer %>
