@@ -7,7 +7,10 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.set("view engine", "ejs");
 
 var campgrounds = [
-  {name:"Treecko", image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/252.png"},
+  {name:"Treecko", image: "https://cdn.bulbagarden.net/upload/thumb/2/2c/252Treecko.png/250px-252Treecko.png"},
+  {name:"Torchic", image: "https://cdn.bulbagarden.net/upload/thumb/9/91/255Torchic.png/250px-255Torchic.png"},
+  {name:"Mudkip", image:  "https://cdn.bulbagarden.net/upload/thumb/6/60/258Mudkip.png/250px-258Mudkip.png"},
+  {name:"Treecko", image: "https://cdn.bulbagarden.net/upload/thumb/2/2c/252Treecko.png/250px-252Treecko.png"},
   {name:"Torchic", image: "https://cdn.bulbagarden.net/upload/thumb/9/91/255Torchic.png/250px-255Torchic.png"},
   {name:"Mudkip", image:  "https://cdn.bulbagarden.net/upload/thumb/6/60/258Mudkip.png/250px-258Mudkip.png"}
 ];
